@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Perfil Interactivo</title>
+		<meta encoding="iso-8859-1" />
+		<meta name="Gabriel Santana" content="estudiante,personal,gustos" />
+		<style type="text/css">
+			h1 {
+				font-size: 28px;
+				color: blue;
+				text-align: center
+			}
+			.resaltado {
+				color: black;
+				font-weight: bold
+			}
+			.resaltado_r {
+				color: red;
+				font-weight: bold
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Bienvenidos al Perfil Interactivo de</br> Gabriel Alejandro</h1>
+
+		<div style="text-align:center;">
+		<h2 class="resaltado_r">Descripción</h2>
+		<p class="resaltado">A continuación encontrarás información básica sobre el estudiante 
+		Gabriel Alejandro Santana,</br> como edad, intereses, pasatiempos, comida 
+		favorita, color favorito, <span class="resaltado_r">Datos curiosos</span>, entre otros.</p>
+		</div>
+
+		<div style="text-align: center;">
+		<h3 class="resaltado_r">NOMBRE:</h3>
+		<p class="resaltado">Gabriel Alejandro Santana Contreras</p>
+		
+		<h3 class="resaltado_r">EDAD:</h3>
+		<p class="resaltado">19 años</p>
+		
+		<h3 class="resaltado_r">INTERESES:</h3>
+		<p class="resaltado">viajes, música, cultura, idiomas, ropa, anime, cantantes, películas</p>
+		<img src="bc.jpeg" style="margin-right:20px"><img src="op.jpeg">
+		
+		<h3 class="resaltado_r">PASATIEMPOS:</h3>
+		<p class="resaltado">dibujar, escuchar música, tomar fotografías</p>
+		
+
+		<h3 class="resaltado_r">COMIDA FAVORITA:</h3>
+		<p class="resaltado">bandeja paisa</p>
+		<img src="bpaisa.jpeg">
+		
+		<h3 class="resaltado_r">COLORES FAVORITOS:</h3>
+		<p class="resaltado">verde, azul, negro, blanco, cafe</p>
+		
+		<h3 class="resaltado_r">DATOS CURIOSOS:</h3>
+		<p class="resaltado">Tengo un gato naranja y uno negro (los quiero mucho, en especial al naranja)		</p>
+		
+		<h3 class="resaltado_r">HECHOS CURIOSOS SOBRE MI:</h3>
+		<p class="resaltado">soy musicholic, estoy obsesionado con los idiomas</p>
+		
+		<h3 class="resaltado_r">CITA FAVORITA:</h3>
+		<p class="resaltado">no tengo</p>
+		
+		<h3 class="resaltado_r">LEMA DE VIDA:</h3>
+		<p class="resaltado">Is it better to speak or to die?</p>
+		</div>
+	</body>
+</html>
