@@ -35,6 +35,18 @@ nav{
     color: #072e6b;
 }
 
+.titulos_b{
+    color: #072e6b;
+    transition: 0.3s;
+}
+
+.titulos_b:hover {
+    text-shadow: 0 0 5px blue,
+               0 0 10px white,
+               0 0 20px blue;
+
+}
+
 .contenido{
     display: flex;
     margin: auto; 
@@ -191,7 +203,7 @@ a:hover{
 
 .cont_img{
     position: relative;
-    width: 300px;
+    width: 50px;
     width: 100%;
     display: block;
 }
@@ -201,7 +213,8 @@ a:hover{
     bottom: 0;
     background: rgba(0, 0, 0, 0.6);
     color: white;
-    width: 100%;
+    border-radius: 20px;
+    width: 88%;
     text-align: center;
     padding: 10px;
     opacity: 0;
